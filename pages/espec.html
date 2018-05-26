@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>C.S.T | Especificação</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link href="../layout/styles/layout-espec.css" rel="stylesheet" type="text/css" media="all">
+    </head>
+    <script language="javascript" src="scripts/funcoes.js"></script>
+    <body id="top">
+        <div class="bgded overlay light" style="background-image:url('../images/demo/backgrounds/05.png');"> 
+            <div class="wrapper row0">
+              <div id="topbar" class="hoc clear"> 
+                <ul class="nospace">
+                  <li><a href="../index.html"><i class="fa fa-lg fa-home"></i></a></li>
+                  <li><a href="#" title="Call Us"><i class="fa fa-phone"></i></a></li>
+                  <li><a href="#" title="Send a Mail"><i class="fa fa-envelope-o"></i></a></li>
+                  <li><a href="#" title="Login"><i class="fa fa-lg fa-sign-in"></i></a></li>
+                  <li><a href="#" title="Sign Up"><i class="fa fa-lg fa-edit"></i></a></li>
+                </ul>
+              </div>
+            </div>
+           <div class="wrapper row1">
+              <header id="header" class="hoc clear"> 
+                <nav id="mainav" class="fl_right">
+                  <ul class="clear">
+                    <li><a href="../index.html">Home</a></li>
+                    <li class="active"><a class="drop" href="#">Pages</a>
+                      <ul>
+                        <li class="active"><a href="gallery.html">Galeria</a></li>
+                        <li><a href="full-width.html">Full Width</a></li>
+                        <li><a href="sidebar-left.html">Sidebar Left</a></li>
+                        <li><a href="sidebar-right.html">Sidebar Right</a></li>
+                        <li><a href="basic-grid.html">Basic Grid</a></li>
+                      </ul>
+                    </li>
+                    <li><a class="drop" href="#">Dropdown</a>
+                      <ul>
+                        <li><a href="#">Level 2</a></li>
+                        <li><a class="drop" href="#">Level 2 + Drop</a>
+                          <ul>
+                            <li><a href="#">Level 3</a></li>
+                            <li><a href="#">Level 3</a></li>
+                            <li><a href="#">Level 3</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="#">Level 2</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Quem somos</a></li>
+                    <li><a href="espec.html">Especificações</a></li>
+                  </ul>
+                </nav>
+              </header>
+            </div>
+            <div id="breadcrumb" class="hoc clear">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Ipsum</a></li>
+                <li><a href="#">Dolor</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div id="interface">
+            <section id="corpo-full"> 
+                <article id="noticia-principal">
+                    <header id="cabecalho-artigo"></br>
+                        <hgroup>
+                            <h1 class="title-principal">Raio-X no Google Glass</h1>
+                            <p class="title-secundario">Clique em qualquer área destacada da imagem para ter mais informações.</p>
+                        </hgroup>
+                    </header>
+                    
+                    <section id="conteudo">
+                        <img src="../images/demo/espec/glass-esquema-marcado.jpg" usemap="meumapa"/>
+                        <map name="meumapa">
+                            <area shape="rect" coords="179,202,270,260" href="google-glass.html#tela" target="janela"/>
+                            <area shape="circle" coords="158,243,12" href="google-glass.html#camera" target="janela"/>
+                            <area shape="circle" coords="73,52,12" href="google-glass.html#gadgets" target="janela"/>
+                            <area shape="poly" coords="28,143,83,216,84,249,27,169" href="google-glass.html#sensores" target="janela"/>
+                        </map>
+                        <iframe src="google-glass.html" name="janela" id="frame-spec"></iframe>
+                    </section>
+                </article>
+            </section>
+          </div>
+          <div class="wrapper row2 bgded overlay" style="background-image:url('../images/demo/backgrounds/04.png');">
+            <section class="hoc cta clear"> 
+              <div class="sectiontitle">
+                <h6 class="heading">Inscreva-se</h6>
+                <p>Para receber todas as novidades em primeira mão!</p>
+              </div>
+              <form method="post" action="#">
+                <fieldset>
+                  <legend>Newsletter:</legend>
+                  <input class="btmspace-15" type="text" value="" placeholder="Enter Your Email Here&hellip;">
+                  <button type="submit" value="submit">Submit</button>
+                </fieldset>
+              </form>
+            </section>
+          </div>
+    </body>
+</html>
