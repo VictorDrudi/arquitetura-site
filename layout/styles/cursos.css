@@ -34,16 +34,11 @@
 #mainav form *{transition:none !important;}
 
 
-/*MAPA
+/*Cursos
 ----------------------------------------------------------------------------------------------------------------*/
-aside{width:50%;float:left;}
-.input-maps{display: -webkit-inline-box;}
-.mapa-todo{position: relative; left: 170px;}
-.maps{ width:100%;height:400px;background:white}
-
-/*Formulario
---------------------------------------------------------------------------------------------------------------*/
-.login{display: -webkit-inline-box;}
+.latest{margin-bottom:80px;}
+.latest article{max-width:320px;}
+.latest > article:last-child{margin-bottom:0;}/* Used when elements stack in smaller viewports */
 
 /* Navigation
 --------------------------------------------------------------------------------------------------------------- */
@@ -124,6 +119,20 @@ if your not worried about it, simply delete it, as the placeholder will take on 
 .cta :-ms-input-placeholder{color:#FFFFFF;}/* IE 10+ */
 .cta ::-moz-placeholder{color:#FFFFFF; opacity:1;}/* FF 19+ */
 .cta :-moz-placeholder{color:#FFFFFF; opacity:1;}/* FF -19 */
+
+/* Page Intro
+--------------------------------------------------------------------------------------------------------------- */
+#pageintro{padding:180px 0;}
+
+#pageintro article{display:block; max-width:75%; margin:0 auto; text-align:center;}
+#pageintro .heading{margin-bottom:20px; font-size:3rem;}
+#pageintro p:first-of-type{margin:0 0 20px 0; text-transform:uppercase; font-size:1.2rem; letter-spacing:5px;}
+#pageintro footer{margin-top:50px;}
+
+.sectiontitle{display:block; max-width:55%; margin:0 auto 80px; text-align:center;}
+.sectiontitle *{margin:0;}
+
+
 
 /* Navigation */
 #mainav li a{color:inherit;}
