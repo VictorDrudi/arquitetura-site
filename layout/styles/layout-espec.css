@@ -1,13 +1,4 @@
 @charset "utf-8";
-/*
-Template Name: Miresa
-Author: <a href="http://www.os-templates.com/">OS Templates</a>
-Author URI: http://www.os-templates.com/
-Licence: Free to use under our free template licence terms
-Licence URI: http://www.os-templates.com/template-terms
-File: Layout CSS
-*/
-
 @import url("font-awesome.min.css");
 @import url("framework.css");
 
@@ -156,7 +147,7 @@ Delete it completely to stop fading
 section#conteudo { width: 1000px; margin: auto;}
 .title-secundario{ color: #7A7A7A; margin: 0px; text-align: center;}
 .title-principal{ text-align: center; color: #000000; font-size: 22px; line-height: normal; font-weight: normal; text-transform: uppercase; margin: 0px; font-family: Georgia, "Times New Roman", Times, serif;}
-iframe#frame-spec {width: 400px; height: 280px; border: none; overflow-x: hidden;}
+iframe#frame-spec {width: 400px; height: 280px; border: none; overflow-x: hidden; margin-bottom: -165px;}
 iframe#frame-Spec::-webkit-scrollbar { display: none;}
 /* ------------------------------------------------------------------------------------------------------------ */
 
